@@ -1,6 +1,12 @@
-# ORB-SLAM2
+# Thesis: Object-Aware SLAM
 
-**Associated Publication:**
+> **Author:** Duong Trieu (@duongtrieuelec)
+> **Repository:** SLAM_Thesis
+> **Description:** This repository contains the source code and modified ORB-SLAM2 system for my Graduation Thesis (Đồ án Tốt nghiệp).
+
+---
+
+# Original ORB-SLAM2 Reference**Associated Publication:**
 - **ORB-SLAM2: Leveraging Objects for Camera Relocalization in Visual SLAM.** Matthieu Zins, Gilles Simon, Marie-Odile Berger, *IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2022).* [Paper](https://arxiv.org/abs/2209.08338) | [Video](https://youtu.be/L1HEL4kLJ3g) | [AR Demo](https://youtu.be/PXG_6LkbtgY)
 
 - **Object-Aided SLAM in a World of Objects**, *Demo CVPR 2023*
