@@ -1,0 +1,44 @@
+Starting OA-SLAM RGB-D...
+Note: Running with YOLO segmentation on CPU might be slow (~2-5 FPS).
+Press Ctrl+C to stop.
+OA-SLAM RGB-D Mode
+Found 2893 RGB-D image pairs
+
+OA-SLAM Copyright (C) 2022 Matthieu Zins, Inria, LORIA, Université de Lorraine;
+Based on ORB-SLAM2;
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions.
+
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+
+Camera Parameters: 
+- fx: 520.909
+- fy: 521.007
+- cx: 325.141
+- cy: 249.702
+- k1: 0.231222
+- k2: -0.784899
+- k3: 0.917205
+- p1: -0.003257
+- p2: -0.000105
+- fps: 30
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 3000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+
+Depth Threshold (Close/Far Points): 3.07156
+Start Local Mapping: use objects in local BA.
+Using SegmentationDetector for ../Data/yolov8n-seg.onnx
+SegmentationDetector: Loaded model ../Data/yolov8n-seg.onnx
+[ WARN:0@5.340] global net_impl.cpp:178 setUpNet DNN module was not built with CUDA backend; switching to CPU
+New map created with 2360 points
+Processed 0/2893 frames

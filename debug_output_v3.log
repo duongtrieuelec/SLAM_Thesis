@@ -1,0 +1,165 @@
+Starting OA-SLAM RGB-D...
+Note: Running with YOLO segmentation on CPU might be slow (~2-5 FPS).
+Press Ctrl+C to stop.
+OA-SLAM RGB-D Mode
+Found 2893 RGB-D image pairs
+
+OA-SLAM Copyright (C) 2022 Matthieu Zins, Inria, LORIA, Université de Lorraine;
+Based on ORB-SLAM2;
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions.
+
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+
+Camera Parameters: 
+- fx: 520.909
+- fy: 521.007
+- cx: 325.141
+- cy: 249.702
+- k1: 0.231222
+- k2: -0.784899
+- k3: 0.917205
+- p1: -0.003257
+- p2: -0.000105
+- fps: 30
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 3000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+
+Depth Threshold (Close/Far Points): 3.07156
+Start Local Mapping: use objects in local BA.
+Using SegmentationDetector for ../Data/yolov8n-seg.onnx
+SegmentationDetector: Loaded model ../Data/yolov8n-seg.onnx
+[ WARN:0@4.993] global net_impl.cpp:178 setUpNet DNN module was not built with CUDA backend; switching to CPU
+[Tracking] Track START. FrameID: 0 State: 0
+New map created with 2372 points
+[Tracking] StereoInitialization SUCCESS. mState set to OK.
+[FrameDrawer] Update called. State: NOT_INITIALIZED. FrameID: 1
+Processed 0/2893 frames
+[Tracking] Track START. FrameID: 1 State: 2
+[Tracking] Track START. FrameID: 2 State: 2
+[Tracking] Track START. FrameID: 3 State: 2
+[Tracking] Track START. FrameID: 4 State: 2
+[Tracking] Track START. FrameID: 5 State: 2
+[Tracking] Track START. FrameID: 6 State: 2
+[Tracking] Track START. FrameID: 7 State: 2
+[Tracking] Track START. FrameID: 8 State: 2
+[Tracking] Track START. FrameID: 9 State: 2
+[Tracking] Track START. FrameID: 10 State: 2
+[Tracking] Track START. FrameID: 11 State: 2
+[Tracking] Track START. FrameID: 12 State: 2
+[Tracking] Track START. FrameID: 13 State: 2
+[Tracking] Track START. FrameID: 14 State: 2
+[Tracking] Track START. FrameID: 15 State: 2
+[Tracking] Track START. FrameID: 16 State: 2
+[Tracking] Track START. FrameID: 17 State: 2
+[Tracking] Track START. FrameID: 18 State: 2
+[Tracking] Track START. FrameID: 19 State: 2
+[Tracking] Track START. FrameID: 20 State: 2
+[Tracking] Track START. FrameID: 21 State: 2
+[Tracking] Track START. FrameID: 22 State: 2
+[Tracking] Track START. FrameID: 23 State: 2
+[Tracking] Track START. FrameID: 24 State: 2
+[Tracking] Track START. FrameID: 25 State: 2
+[Tracking] Track START. FrameID: 26 State: 2
+[Tracking] Track START. FrameID: 27 State: 2
+[Tracking] Track START. FrameID: 28 State: 2
+[Tracking] Track START. FrameID: 29 State: 2
+[Tracking] Track START. FrameID: 30 State: 2
+[Tracking] Track START. FrameID: 31 State: 2
+[Tracking] Track START. FrameID: 32 State: 2
+[Tracking] Track START. FrameID: 33 State: 2
+[Tracking] Track START. FrameID: 34 State: 2
+[Tracking] Track START. FrameID: 35 State: 2
+[Tracking] Track START. FrameID: 36 State: 2
+[Tracking] Track START. FrameID: 37 State: 2
+[Tracking] Track START. FrameID: 38 State: 2
+[Tracking] Track START. FrameID: 39 State: 2
+[Tracking] Track START. FrameID: 40 State: 2
+[Tracking] Track START. FrameID: 41 State: 2
+[Tracking] Track START. FrameID: 42 State: 2
+[Tracking] Track START. FrameID: 43 State: 2
+[Tracking] Track START. FrameID: 44 State: 2
+[Tracking] Track START. FrameID: 45 State: 2
+[Tracking] Track START. FrameID: 46 State: 2
+[Tracking] Track START. FrameID: 47 State: 2
+[Tracking] Track START. FrameID: 48 State: 2
+[Tracking] Track START. FrameID: 49 State: 2
+[Tracking] Track START. FrameID: 50 State: 2
+[Tracking] Track START. FrameID: 51 State: 2
+[Tracking] Track START. FrameID: 52 State: 2
+[Tracking] Track START. FrameID: 53 State: 2
+[Tracking] Track START. FrameID: 54 State: 2
+[Tracking] Track START. FrameID: 55 State: 2
+[Tracking] Track START. FrameID: 56 State: 2
+[Tracking] Track START. FrameID: 57 State: 2
+[Tracking] Track START. FrameID: 58 State: 2
+[Tracking] Track START. FrameID: 59 State: 2
+[Tracking] Track START. FrameID: 60 State: 2
+[Tracking] Track START. FrameID: 61 State: 2
+[Tracking] Track START. FrameID: 62 State: 2
+[Tracking] Track START. FrameID: 63 State: 2
+[Tracking] Track START. FrameID: 64 State: 2
+[Tracking] Track START. FrameID: 65 State: 2
+[Tracking] Track START. FrameID: 66 State: 2
+[Tracking] Track START. FrameID: 67 State: 2
+[Tracking] Track START. FrameID: 68 State: 2
+[Tracking] Track START. FrameID: 69 State: 2
+[Tracking] Track START. FrameID: 70 State: 2
+[Tracking] Track START. FrameID: 71 State: 2
+[Tracking] Track START. FrameID: 72 State: 2
+[Tracking] Track START. FrameID: 73 State: 2
+[Tracking] Track START. FrameID: 74 State: 2
+[Tracking] Track START. FrameID: 75 State: 2
+[Tracking] Track START. FrameID: 76 State: 2
+[Tracking] Track START. FrameID: 77 State: 2
+[Tracking] Track START. FrameID: 78 State: 2
+[Tracking] Track START. FrameID: 79 State: 2
+[Tracking] Track START. FrameID: 80 State: 2
+[Tracking] Track START. FrameID: 81 State: 2
+[Tracking] Track START. FrameID: 82 State: 2
+[Tracking] Track START. FrameID: 83 State: 2
+[Tracking] Track START. FrameID: 84 State: 2
+[Tracking] Track START. FrameID: 85 State: 2
+[Tracking] Track START. FrameID: 86 State: 2
+[Tracking] Track START. FrameID: 87 State: 2
+[Tracking] Track START. FrameID: 88 State: 2
+[Tracking] Track START. FrameID: 89 State: 2
+[Tracking] Track START. FrameID: 90 State: 2
+[Tracking] Track START. FrameID: 91 State: 2
+[Tracking] Track START. FrameID: 92 State: 2
+[Tracking] Track START. FrameID: 93 State: 2
+[Tracking] Track START. FrameID: 94 State: 2
+[Tracking] Track START. FrameID: 95 State: 2
+[Tracking] Track START. FrameID: 96 State: 2
+[Tracking] Track START. FrameID: 97 State: 2
+[Tracking] Track START. FrameID: 98 State: 2
+[Tracking] Track START. FrameID: 99 State: 2
+[Tracking] Track START. FrameID: 100 State: 2
+Processed 100/2893 frames
+[Tracking] Track START. FrameID: 101 State: 2
+[Tracking] Track START. FrameID: 102 State: 2
+[Tracking] Track START. FrameID: 103 State: 2
+[Tracking] Track START. FrameID: 104 State: 2
+[Tracking] Track START. FrameID: 105 State: 2
+[Tracking] Track START. FrameID: 106 State: 2
+[Tracking] Track START. FrameID: 107 State: 2
+[Tracking] Track START. FrameID: 108 State: 2
+[Tracking] Track START. FrameID: 109 State: 2
+[Tracking] Track START. FrameID: 110 State: 2
+[Tracking] Track START. FrameID: 111 State: 2
+[Tracking] Track START. FrameID: 112 State: 2
+[Tracking] Track START. FrameID: 113 State: 2
+[Tracking] Track START. FrameID: 114 State: 2
+[Tracking] Track START. FrameID: 115 State: 2
+[Tracking] Track START. FrameID: 116 State: 2
+[Tracking] Track START. FrameID: 117 State: 2

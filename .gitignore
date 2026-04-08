@@ -1,0 +1,34 @@
+
+# Ignore build and compiled files
+build/
+lib/
+Thirdparty/DBoW2/build/
+Thirdparty/DBoW2/lib/
+Thirdparty/g2o/build/
+Thirdparty/g2o/lib/
+*.o
+*.so
+*.a
+
+# Ignore heavy Vocabulary files
+Vocabulary/ORBvoc.txt
+
+# VS code and cache
+.vscode/
+.cache/
+
+# Ignore heavy build files
+build/
+lib/
+Thirdparty/DBoW2/build/
+Thirdparty/DBoW2/lib/
+Thirdparty/g2o/build/
+Thirdparty/g2o/lib/
+*.o
+*.so
+Vocabulary/ORBvoc.txt
+
+# Ignore binaries and outputs
+bin/
+*.features
+*.obj
